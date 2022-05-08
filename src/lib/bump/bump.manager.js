@@ -2,7 +2,9 @@ import chalk from "chalk";
 import { readFile, writeFile } from "../../utils/fs";
 import {
   PATH_ANDROID,
+  PATH_ANDROID_TEST,
   PATH_IOS,
+  PATH_IOS_TEST,
   REGEX_ANDROID_VERSIONCODE,
   REGEX_ANDROID_VERSIONNAME,
   REGEX_IOS_APPBUILD,
@@ -21,8 +23,8 @@ class BumpFileManager {
 
   async init() {
     this.path = this.isAndroid
-      ? PATH_ANDROID
-      : PATH_IOS.replace("<projectname>", this.nameProject);
+      ? PATH_ANDROID_TEST
+      : PATH_IOS_TEST.replace("<projectname>", this.nameProject);
     this.paramaters = this.isAndroid
       ? {
           code: REGEX_ANDROID_VERSIONCODE,
