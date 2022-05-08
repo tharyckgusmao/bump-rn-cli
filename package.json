@@ -7,11 +7,23 @@
         "start": "babel-node src/index.js",
         "start:prod": "node dist/index.js",
         "dev": "babel-node src/index.js",
-        "build": "babel src --out-dir  dist --source-maps false --copy-files",
+        "build": "babel src --out-dir dist",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "bin": {
+        "dump-rn": "index.js"
+    },
     "author": "tharyck",
-    "license": "ISC",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tharyckgusmao/bump-rn-cli.git"
+    },
+    "keywords": [],
+    "bugs": {
+        "url": "https://github.com/tharyckgusmao/bump-rn-cli/issues"
+    },
+    "homepage": "https://github.com/tharyckgusmao/bump-rn-cli#readme",
     "dependencies": {
         "@babel/runtime": "^7.9.6",
         "chalk": "^4.1.0",
@@ -20,6 +32,7 @@
         "glob": "^7.1.6",
         "inquirer": "^8.0.0",
         "mkdirp": "^1.0.4",
+        "npm-pack-all": "^1.12.7",
         "rimraf": "^3.0.2"
     },
     "devDependencies": {
