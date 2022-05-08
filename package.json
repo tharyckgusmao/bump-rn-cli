@@ -11,7 +11,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "bin": {
-        "bump-rn": "src/index.js"
+        "bump-rn": "dist/index.js"
     },
     "author": "tharyck",
     "license": "MIT",
