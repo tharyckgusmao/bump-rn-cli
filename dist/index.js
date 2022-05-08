@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 (() => {
   var t = {
       530: (t, e, r) => {
@@ -25,8 +24,8 @@
             async init() {
               var t, e, r, n;
               (this.path = this.isAndroid
-                ? "test/android/app/build.gradle"
-                : "test/ios/<projectname>.xcodeproj/project.pbxproj".replace(
+                ? "android/app/build.gradle"
+                : PATH_IOSPATH_ANDROID.replace(
                     "<projectname>",
                     this.nameProject
                   )),
