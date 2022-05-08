@@ -24,7 +24,7 @@ class BumpFileManager {
   async init() {
     this.path = this.isAndroid
       ? PATH_ANDROID
-      : PATH_IOSPATH_ANDROID.replace("<projectname>", this.nameProject);
+      : PATH_IOS.replace("<projectname>", this.nameProject);
     this.paramaters = this.isAndroid
       ? {
           code: REGEX_ANDROID_VERSIONCODE,

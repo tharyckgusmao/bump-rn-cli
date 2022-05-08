@@ -25,7 +25,7 @@
               var t, e, r, n;
               (this.path = this.isAndroid
                 ? "android/app/build.gradle"
-                : PATH_IOSPATH_ANDROID.replace(
+                : "ios/<projectname>.xcodeproj/project.pbxproj".replace(
                     "<projectname>",
                     this.nameProject
                   )),
