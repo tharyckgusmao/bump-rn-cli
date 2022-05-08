@@ -176,7 +176,7 @@ android {
         debug {
             signingConfig signingConfigs.debug
                 applicationIdSuffix ".debug"
-            resValue "string", "build_config_package", "com.seuingresso"
+            resValue "string", "build_config_package", "com.project"
 
         }
         release {
