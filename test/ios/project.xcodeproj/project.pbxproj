@@ -822,8 +822,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1008714B079B0789C9294C8 /* Pods-project-projectTests.debug.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -848,8 +848,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBD0FB90356DD321B19C6C9B /* Pods-project-projectTests.release.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -871,8 +871,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8EE06C4C93D81888F930DB78 /* Pods-project.debug.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -906,8 +906,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5943D0056D90F388E2852634 /* Pods-project.release.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CLANG_ENABLE_MODULES = YES;
@@ -939,8 +939,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8F98026A240AC7D8FB0B9A4D /* Pods-project-tvOS.debug.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -970,8 +970,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 280183CCE5E1B3DE586ADC27 /* Pods-project-tvOS.release.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+				APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1001,8 +1001,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7326D50823725FF305B1080 /* Pods-project-tvOSTests.debug.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1030,8 +1030,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0C8AB2FAC8B3C983C5B18A63 /* Pods-project-tvOSTests.release.xcconfig */;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1058,8 +1058,8 @@
 		83CBBA201A601CBA00E9B192 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+				APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1122,8 +1122,8 @@
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-					APP_BUILD = 1;
-				APP_VERSION = 1.0.0;
+					APP_BUILD = 1
+				APP_VERSION = 0.0.1
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -1228,4 +1228,8 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
+roject object */;
+}
+roject object */;
 }
