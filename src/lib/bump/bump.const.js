@@ -12,7 +12,7 @@ const REGEX_IOS_APPBUILD = {
   preffix: "APP_BUILD = ",
 };
 const REGEX_IOS_APPVERSION = {
-  regex: /APP_VERSION = (.*)/g,
+  regex: /APP_VERSION = \d.\d.\d/g,
   preffix: "APP_VERSION = ",
 };
 
