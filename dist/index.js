@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 (() => {
   var t = {
       530: (t, e, r) => {
@@ -12,7 +13,10 @@
         const c = { regex: /versionCode (\d+)/, preffix: "versionCode " },
           l = { regex: /versionName ('.*'|".*")/, preffix: "versionName " },
           h = { regex: /APP_BUILD = (\d+)/g, preffix: "APP_BUILD = " },
-          u = { regex: /APP_VERSION = \d.\d.\d/g, preffix: "APP_VERSION = " },
+          u = {
+            regex: /APP_VERSION = \d+.\d+.\d+/g,
+            preffix: "APP_VERSION = ",
+          },
           p = class {
             constructor(t = "android", e = null) {
               (this.nameProject = e),
