@@ -20,7 +20,7 @@ const REGEX_IOS_APPBUILD = {
 };
 exports.REGEX_IOS_APPBUILD = REGEX_IOS_APPBUILD;
 const REGEX_IOS_APPVERSION = {
-  regex: /APP_VERSION = \d+.\d+.\d+/g,
+  regex: /APP_VERSION = \d+.\d+/g,
   preffix: "APP_VERSION = "
 };
 exports.REGEX_IOS_APPVERSION = REGEX_IOS_APPVERSION;
